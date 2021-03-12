@@ -1,0 +1,29 @@
+h1{
+    align-self: auto;
+    text-align: center;
+    background-color: burlywood;
+    color: brown;
+    font-display: 60px;
+    text-decoration: underline;
+}
+
+p{
+    color: darkblue;
+    text-align: center;
+    background-color: beige;
+    font-size: x-large;
+    
+}
+
+div{
+    padding: 50px;
+    border: red solid 2px;
+    margin: 40px;
+    width: 1200px;
+    height: 300px;
+    float:left;
+    border-radius: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: x-large;
+}
