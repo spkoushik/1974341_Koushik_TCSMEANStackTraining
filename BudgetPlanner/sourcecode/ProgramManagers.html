@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgramManagers</title>
+    <link rel="stylesheet" href="Budegetplanner1.css">
+    <script src="BudgetPlanner.js"></script>
+</head>
+<body>
+    <h1 id="id1">Add New Budget</h1>
+    <form align = "center" action = "Mainpage.html">
+        
+        <br/><br/><br/><br/><br/><br/><br/>
+        <label class="lable1" > Client Name  </label> 
+        <input type = "text" id="clientname" name="clientname"/> 
+        <br/><br/><br/>
+        <label class="lable1" > Project Name  </label> 
+        <input type = "text" id="projectname" name="projectname"/>  
+        <br/><br/><br/>
+        <label class="lable1" > Budget  </label> 
+        <input type = "number" id="projectbudget" name="projectbudget"/> 
+        <br/><br/><br/>
+        <input type = "button" value = "Add" onclick= "onFormSubmit()"/> 
+        <input type = "reset" value = "Clear"/> 
+        <br/>
+        <br/>
+        <input type = "submit" value = "back"/>
+
+
+
+       <hr/>
+
+        <table id = "AnnualBudget">
+            <thead>
+                <tr>
+                    <th>Client Name</th>
+                    <th>Project Name</th>
+                    <th>Project Budget</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>   
+
+</form>
+</body> 
+</html>

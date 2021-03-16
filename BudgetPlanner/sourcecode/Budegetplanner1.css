@@ -1,0 +1,40 @@
+#id1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(105, 8, 8);
+    vertical-align: middle;
+    text-underline-offset: initial;
+    
+}
+body
+{
+    background-image:url("gif.gif");
+    background-repeat: no-repeat;
+    background-size: 1200px 650px;
+    background-attachment: fixed;
+      
+}    
+
+#div1{
+    
+    font-size: xx-large;
+    text-align: center;
+}
+
+.lable1
+{
+    color: mediumblue;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;   
+}
+#AnnualBudget
+{
+    color: mediumblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    text-align:start;   
+}
