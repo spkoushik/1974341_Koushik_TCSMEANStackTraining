@@ -1,0 +1,15 @@
+<h1>Login Page</h1>
+
+<div>
+    <form [formGroup]="loginRef" (ngSubmit)="checkUser()">
+        <label >Username</label>
+        <input type="text" formControlName="loginuser"/><br/>
+        <label>Password</label>
+        <input type="password" formControlName="loginpass"><br/>
+        <input type="submit" value="Login"/>
+       
+        <input type="button" value="SignUp" (click)="signup()">
+    </form>
+    {{msg}}
+        
+</div>

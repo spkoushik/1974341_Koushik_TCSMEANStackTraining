@@ -1,0 +1,13 @@
+<h1>Portfolio Page</h1>
+<p>My portfolio!</p>
+<div>
+    <form [formGroup]="portfolioRef" (ngSubmit)="save()">
+        <label >Contact Name</label>
+        <input type="text" formControlName="contactname"/><br/>
+        <label>Phone no.</label>
+        <input type="number" formControlName="phoneno"><br/>
+        <input type="button" value="Save"/>
+        <input type="reset" value="Reset"/>
+    </form>
+        
+</div>
