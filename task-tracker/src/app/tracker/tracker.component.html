@@ -1,0 +1,40 @@
+<div class = "container">
+    <br/><br/>
+    
+    <form #taskRef = "ngForm" (ngSubmit) = "taskInfo(taskRef.value)" >
+        <mat-form-field>
+            <mat-label > ID </mat-label>
+            <input matInput type = "text" name  = "id" ngModel /><br/>
+        </mat-form-field>
+            <br/>
+
+        <mat-form-field>
+            <mat-label> Name</mat-label>
+            <input matInput type = "text" name = "name" ngModel /><br/>
+        </mat-form-field>
+            <br/>
+
+        <mat-form-field>
+            <mat-label > Task</mat-label>
+            <input matInput type = "text" name  = "task" ngModel /><br/>
+        </mat-form-field>
+            <br/>
+
+        <mat-form-field>
+            <mat-label > Deadline</mat-label>
+            <input matInput type = "text" name = "deadline" ngModel /><br/>
+        </mat-form-field>
+            <br/>
+           
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <button mat-stroked-button color="accent" style = "background-color:darkorange;">Submit</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
+            <br/><br/>
+      
+
+       
+    </form>
+ </div>

@@ -1,0 +1,10 @@
+{
+    "emplist": [
+      {
+        "empid": 101,
+        "empname": "ABC",
+        "task": "Angular Assesment",
+        "deadline": "2021-04-12"
+      }
+          ]
+  }
